@@ -1,4 +1,4 @@
-#prime numbers
+#prime number
 
 for i in range(3, 50):
     c = 0
@@ -6,6 +6,6 @@ for i in range(3, 50):
         if i % j  == 0:
             c += 1
     if c < 1:
-        print(f"prime {i}")
+        print(f"prime = {i}")
     else:
-        print(f"Not a prime {i}")
+        print(f"Not a prime = {i}")
