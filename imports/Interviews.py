@@ -1,3 +1,5 @@
+#prime numbers
+
 for i in range(3, 50):
     c = 0
     for j in range(2, i):
