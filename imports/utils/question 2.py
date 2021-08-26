@@ -1,11 +1,10 @@
-str = input("Enter any string")
-l1 = list(str)
-lenth = len(l1)
+test_str = input(('Enter a sting'))
+all_freq = {}
 
-for i in l1:
-    c = 0
-    for j in l1:
-        if i == j and j != '*':
-            c += 1
-            j = '*'
-    print(f"{i} {c}")
+for i in test_str:
+    if i in all_freq:
+        all_freq[i] += 1
+    else:
+        all_freq[i] = 1
+print ("Count of all characters in Geeks for Geeks is :\n "
+                                        +  str(all_freq))
