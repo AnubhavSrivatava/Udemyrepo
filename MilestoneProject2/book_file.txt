@@ -1,0 +1,17 @@
+q[
+    {
+        "name": "30 python",
+        "author": "anubhav",
+        "read": true
+    },
+    {
+        "name": "40 python",
+        "author": "abhas",
+        "read": false
+    },
+    {
+        "name": "60 python",
+        "author": "ayush",
+        "read": false
+    }
+]
