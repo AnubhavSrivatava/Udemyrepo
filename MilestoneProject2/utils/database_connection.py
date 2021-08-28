@@ -13,7 +13,7 @@ class DatabaseConnection:
 
     def __exit__(self, exc_type, exc_val, exc_tb):
         if exc_type or exc_val or exc_tb:  # same as (if exc_type = not None or exc_val = not None  or exc_tb = not None ) :
-            print("book already exists in DB")
+            print("book already exists in DataBase")
             self.connection.close
         else:
             self.connection.commit()
