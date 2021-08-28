@@ -1,11 +1,9 @@
-#prime number
+import json
+adbfile = adb logcat > error.txt
+with open ("adbfile",'r') as file :
+    lst = json.load(file)
+    for i in lst:
+        if i = = "crash event name" :
+            kill the multiproce
+            then restrt the process
 
-for i in range(3, 50):
-    c = 0
-    for j in range(2, i):
-        if i % j  == 0:
-            c += 1
-    if c < 1:
-        print(f"prime = {i}")
-    else:
-        print(f"Not a prime = {i}")

@@ -1,4 +1,4 @@
-from utils.databaseSqlite import *
+from utils.databaseSqliteWithContextManager import *
 
 
 USER_CHOICE = """
